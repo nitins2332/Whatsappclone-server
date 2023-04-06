@@ -1,8 +1,12 @@
-import multer from "multer";
-import { GridFsStorage } from "multer-gridfs-storage";
-import dotenv from "dotenv";
+const multer = require("multer");
+const multer = require("multer");
 
-dotenv.config();
+const GridFsStorage = require("multer-gridfs-storage");
+require("dotenv").config();
+
+// import dotenv from "dotenv";
+
+// dotenv.config();
 
 const UserName = process.env.Db_username;
 const PassWord = process.env.Db_password;
