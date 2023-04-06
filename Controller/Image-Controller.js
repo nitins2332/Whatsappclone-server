@@ -1,6 +1,6 @@
 const grid = require("gridfs-stream");
 
-import mongoose from "mongoose";
+const mongoose = require("mongoose");
 
 const url = "http://localhost:8000";
 
